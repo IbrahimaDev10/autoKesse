@@ -11,7 +11,7 @@ function App() {
       element:<Layout />,
       children: [
         {
-          path:"/index",
+          path:"",
           element:<Home />,
         },
       ]
