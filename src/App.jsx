@@ -19,7 +19,7 @@ function App() {
 
   ],
       {
-    basename: "/autoKesse/", // ← important pour GitHub Pages
+    basename: "/autoKesse", // ← important pour GitHub Pages
   } 
 )
 
