@@ -1,13 +1,10 @@
 import React from 'react'
-import imgStart from '../assets/images/imgStart.jpg'
-import audi from '../assets/images/audi.png'
-import nissan_logo from '../assets/images/nissan_logo.png'
-import peugeot_logo from '../assets/images/peugeot_logo.png'
+
 
 export default function ContentStart() {
   return (
     <div className='flex   relative h-150'>
-        <img className='w-full h-150 object-cover opacity-70 absolute z-0 bg-black ' src={imgStart} alt="" />
+        <img className='w-full h-150 object-cover opacity-70 absolute z-0 bg-black ' src={`${import.meta.env.BASE_URL}assets/images/imgStart.jpg`} alt="" />
         <div className='flex w-full h-150  opacity-60 z-20 bg-black absolute'>
             
         </div>
@@ -18,9 +15,9 @@ export default function ContentStart() {
         </div>
         <div className='flex z-30 w-200 mt-20 h-full flex-col-reverse'>
             <div className='flex items-center gap-4 p-4'>
-                <img className='w-40 h-30 hover:cursor-pointer' src={audi} alt="" />
-                <img className='w-40 h-30' src={nissan_logo} alt="" />
-                <img className='w-40 h-30' src={peugeot_logo} alt="" />
+                <img className='w-40 h-30 hover:cursor-pointer' src={`${import.meta.env.BASE_URL}assets/images/audi.png`} alt="" />
+                <img className='w-40 h-30' src={`${import.meta.env.BASE_URL}assets/images/nissan_logo.png`} alt="" />
+                <img className='w-40 h-30' src={`${import.meta.env.BASE_URL}assets/images/peugeot_logo.png`} alt="" />
             </div>
             </div>
         </div>

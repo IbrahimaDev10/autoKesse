@@ -54,7 +54,7 @@ export default function AnnonceLimit() {
     <div className=' grid min-md:grid-cols-3 gap-8 max-md:grid-cols-1 w-full mx-auto'>  
         {listAnnonce.map((item,index)=>(
         <div jkey={index} className='flex flex-col w-full h-[380px] bg-white shadow-2xl rounded-2xl relative'>
-            <img src={`/assets/images/${item.image}`} className='w-full object-cover h-[200px] rounded-2xl'  />
+            <img src={`${import.meta.env.BASE_URL}assets/images/${item.image}`} className='w-full object-cover h-[200px] rounded-2xl'  />
             <div className='flex items-center justify-between px-8 mt-2 '>
                 <span className='text-gray-500 text-xl font-bold max-md:text-sm'>{item.marque} | {item.model}</span>  
                   

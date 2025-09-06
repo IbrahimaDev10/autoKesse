@@ -16,6 +16,9 @@ function App() {
         },
       ]
     },
+      {
+    basename: "/autoKesse/", // ← important pour GitHub Pages
+  }
   ])
 
   return (

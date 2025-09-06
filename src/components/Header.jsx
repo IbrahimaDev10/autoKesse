@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.jpg'; 
+//import logo from '../assets/images/logo.jpg'; 
 import { NavLink } from 'react-router-dom';
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className='flex w-full bg-none h-20 justify-between'>
         <div className='flex items-center p-2 gap-4'>
-            <img className='w-30 h-15 object-cover rounded-2xl ' src={logo}  alt="" />
+           {/* <img className='w-30 h-15 object-cover rounded-2xl ' src={logo}  alt="" />  */}
             <span className='text-cyan-700 text-3xl font-bold'>AutoGreatest</span>
         </div>
         <div className='flex items-center gap-8 mr-10 '>
