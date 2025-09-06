@@ -16,10 +16,12 @@ function App() {
         },
       ]
     },
+
+  ],
       {
     basename: "/autoKesse/", // ← important pour GitHub Pages
-  }
-  ])
+  } 
+)
 
   return (
     <RouterProvider router={router} />
