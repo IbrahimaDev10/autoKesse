@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "home": "https://IbrahimaDev10.github.io/autoKesse",
+  "homepage": "https://IbrahimaDev10.github.io/autoKesse",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
