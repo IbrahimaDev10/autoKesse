@@ -10,10 +10,10 @@ export default function Header() {
    
     ]
   return (
-    <div className='flex w-full bg-none h-20 justify-between'>
-        <div className='flex items-center p-2 gap-4'>
-           {/* <img className='w-30 h-15 object-cover rounded-2xl ' src={logo}  alt="" />  */}
-            <span className='text-cyan-700 text-3xl font-bold'>AutoGreatest</span>
+    <div className='flex w-full bg-none h-30 justify-between'>
+        <div className='flex items-center py-10 gap-4'>
+            <img className='w-25 h-25 object-cover  ' src={`${import.meta.env.BASE_URL}/assets/images/logoApp.png`}  alt="" />  
+           {/* <span className='text-cyan-700 text-3xl font-bold'>AutoGreatest</span> */}
         </div>
         <div className='flex items-center gap-8 mr-10 max-md:hidden '>
             {navItems.map((item,index)=>(
