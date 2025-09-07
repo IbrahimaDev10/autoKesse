@@ -8,7 +8,7 @@ export default function ContentStart() {
 
         <div className='flex flex-col h-full z-30 w-full '>
         
-        <span className='mt-20 ml-5 text-white text-5xl font-bold z-30 w-[300px] max-lg:text-3xl max-lg:w-[300px]   '>Trouvez & vendre la voiture de vos choix</span>
+        <span className='mt-20 ml-5 text-white text-5xl font-bold z-30 w-[300px] max-lg:text-3xl max-lg:w-[300px]   '>Trouvez & vendre la voiture de vos choix 100%</span>
         
         <div className='flex z-30 w-[300px] mt-5 h-full flex-col-reverse max-lg:w-[300px]'>
             <div className='flex items-center gap-4 p-4'>
