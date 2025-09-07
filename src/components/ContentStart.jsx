@@ -14,7 +14,7 @@ export default function ContentStart() {
             <div className='flex items-center gap-4 p-4'>
                 <img className='w-25 h-25 hover:cursor-pointer' src={`${import.meta.env.BASE_URL}/assets/images/audi.png`} alt="" />
                 <img className='w-25 h-25' src={`${import.meta.env.BASE_URL}/assets/images/nissan_logo.png`} alt="" />
-                <img className='w-25 h-25' src={`${import.meta.env.BASE_URL}/assets/images/peugeot_logo.png`} alt="" />
+               {/* <img className='w-25 h-25' src={`${import.meta.env.BASE_URL}/assets/images/peugeot_logo.png`} alt="" /> */}
             </div>
             </div>
         </div>
