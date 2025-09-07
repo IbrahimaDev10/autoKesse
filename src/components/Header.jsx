@@ -15,7 +15,7 @@ export default function Header() {
            {/* <img className='w-30 h-15 object-cover rounded-2xl ' src={logo}  alt="" />  */}
             <span className='text-cyan-700 text-3xl font-bold'>AutoGreatest</span>
         </div>
-        <div className='flex items-center gap-8 mr-10 '>
+        <div className='flex items-center gap-8 mr-10 max-md:hidden '>
             {navItems.map((item,index)=>(
               <NavLink key={index} to={item.path}  className={({isActive})=> `text-2sm ${isActive ? 'underline' :''} text-xl text-gray-700 font-bold`} >{item.text}</NavLink>  
             ))}
