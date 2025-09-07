@@ -12,9 +12,9 @@ export default function ContentStart() {
         
         <div className='flex z-30 w-150 mt-5 h-full flex-col-reverse max-lg:w-100'>
             <div className='flex items-center gap-4 p-4'>
-                <img className='w-30 h-30 hover:cursor-pointer' src={`${import.meta.env.BASE_URL}/assets/images/audi.png`} alt="" />
-                <img className='w-30 h-30' src={`${import.meta.env.BASE_URL}/assets/images/nissan_logo.png`} alt="" />
-                <img className='w-30 h-30' src={`${import.meta.env.BASE_URL}/assets/images/peugeot_logo.png`} alt="" />
+                <img className='w-25 h-25 hover:cursor-pointer' src={`${import.meta.env.BASE_URL}/assets/images/audi.png`} alt="" />
+                <img className='w-25 h-25' src={`${import.meta.env.BASE_URL}/assets/images/nissan_logo.png`} alt="" />
+                <img className='w-25 h-25' src={`${import.meta.env.BASE_URL}/assets/images/peugeot_logo.png`} alt="" />
             </div>
             </div>
         </div>
