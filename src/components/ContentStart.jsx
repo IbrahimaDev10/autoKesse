@@ -8,9 +8,9 @@ export default function ContentStart() {
 
         <div className='flex flex-col h-full z-30 w-full '>
         
-        <span className='mt-20 ml-15 text-white text-5xl font-bold z-30 w-150 max-md:text-3xl max-md:w-80   '>Trouvez & vendre la voiture de vos choix</span>
+        <span className='mt-20 ml-15 text-white text-5xl font-bold z-30 w-150 max-lg:text-3xl max-md:w-80   '>Trouvez & vendre la voiture de vos choix</span>
         
-        <div className='flex z-30 w-150 mt-20 h-full flex-col-reverse max-md:w-100'>
+        <div className='flex z-30 w-150 mt-20 h-full flex-col-reverse max-lg:w-100'>
             <div className='flex items-center gap-4 p-4'>
                 <img className='w-30 h-30 hover:cursor-pointer' src={`${import.meta.env.BASE_URL}/assets/images/audi.png`} alt="" />
                 <img className='w-30 h-30' src={`${import.meta.env.BASE_URL}/assets/images/nissan_logo.png`} alt="" />
